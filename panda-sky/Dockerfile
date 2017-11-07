@@ -1,6 +1,6 @@
 FROM node:6
 
-LABEL maintainer "Michael R. Fleet <f1337.us>"
+LABEL maintainer "Michael R. Fleet <https://github.com/f1337>"
 
 RUN apt-get update \
   && apt-get install -y zip
